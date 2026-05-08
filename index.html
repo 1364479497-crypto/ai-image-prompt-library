@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="个人 AI 生图提示词库，支持分类、搜索、收藏、复制、导入暂存和导出。"
+    />
+    <title>AI 生图提示词库</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="rail" aria-label="提示词库导航">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div>
+            <p class="eyebrow">Prompt Vault</p>
+            <h1>AI 生图库</h1>
+          </div>
+        </div>
+
+        <section class="stat-stack" aria-label="统计">
+          <div>
+            <span id="statTotal">0</span>
+            <p>条提示词</p>
+          </div>
+          <div>
+            <span id="statFav">0</span>
+            <p>已收藏</p>
+          </div>
+        </section>
+
+        <nav class="category-list" id="categoryList" aria-label="分类"></nav>
+
+        <section class="rail-card">
+          <div class="rail-card-head">
+            <i data-lucide="archive"></i>
+            <span>微信文章导入</span>
+          </div>
+          <p>把文章链接、PDF 或正文发给我后，我会提取、去重、分类并写入数据文件。</p>
+          <button class="button secondary full" id="openImport" type="button">
+            <i data-lucide="file-input"></i>
+            <span>打开暂存区</span>
+          </button>
+        </section>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div class="search-box">
+            <i data-lucide="search"></i>
+            <input
+              id="searchInput"
+              type="search"
+              placeholder="搜索风格、用途、模型、中文或英文提示词..."
+              autocomplete="off"
+            />
+          </div>
+          <div class="top-actions">
+            <button class="icon-button" id="toggleView" type="button" aria-label="切换视图" title="切换视图">
+              <i data-lucide="layout-grid"></i>
+            </button>
+            <button class="button ghost" id="exportJson" type="button">
+              <i data-lucide="download"></i>
+              <span>导出</span>
+            </button>
+            <button class="button primary" id="newPrompt" type="button">
+              <i data-lucide="plus"></i>
+              <span>新增</span>
+            </button>
+          </div>
+        </header>
+
+        <section class="focus-panel" aria-labelledby="focusTitle">
+          <div class="focus-copy">
+            <p class="eyebrow">当前选中</p>
+            <h2 id="focusTitle">正在载入提示词...</h2>
+            <p id="focusSummary"></p>
+            <div class="focus-tags" id="focusTags"></div>
+          </div>
+          <div class="focus-preview" id="focusPreview" aria-hidden="true"></div>
+          <div class="focus-actions">
+            <button class="button primary" id="copyFocus" type="button">
+              <i data-lucide="copy"></i>
+              <span>复制提示词</span>
+            </button>
+            <button class="icon-button" id="favoriteFocus" type="button" aria-label="收藏当前提示词" title="收藏">
+              <i data-lucide="star"></i>
+            </button>
+          </div>
+        </section>
+
+        <section class="filters" aria-label="筛选">
+          <div class="segmented" id="quickFilters">
+            <button class="active" data-filter="all" type="button">全部</button>
+            <button data-filter="favorite" type="button">收藏</button>
+            <button data-filter="ready" type="button">可直接出图</button>
+            <button data-filter="wechat" type="button">微信来源</button>
+            <button data-filter="github" type="button">GitHub来源</button>
+            <button data-filter="local" type="button">我新增的</button>
+          </div>
+          <select id="modelFilter" aria-label="模型筛选">
+            <option value="all">全部模型</option>
+          </select>
+          <select id="sortMode" aria-label="排序">
+            <option value="recent">最近加入</option>
+            <option value="rating">评分优先</option>
+            <option value="title">标题 A-Z</option>
+          </select>
+        </section>
+
+        <section class="content-grid" id="promptGrid" aria-live="polite"></section>
+      </main>
+    </div>
+
+    <dialog class="drawer" id="detailDialog">
+      <form method="dialog">
+        <button class="icon-button close-button" type="submit" aria-label="关闭">
+          <i data-lucide="x"></i>
+        </button>
+      </form>
+      <article id="detailContent"></article>
+    </dialog>
+
+    <dialog class="image-lightbox" id="imageDialog" aria-label="预览图">
+      <button class="icon-button image-lightbox-close" id="closeImageDialog" type="button" aria-label="关闭">
+        <i data-lucide="x"></i>
+      </button>
+      <img id="imageDialogImg" alt="" />
+      <p id="imageDialogTitle"></p>
+    </dialog>
+
+    <dialog class="drawer compact" id="promptDialog">
+      <form class="prompt-form" id="promptForm">
+        <div class="dialog-head">
+          <div>
+            <p class="eyebrow">New Entry</p>
+            <h2>新增提示词</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-dialog aria-label="关闭">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+
+        <label>
+          标题
+          <input name="title" required placeholder="例如：雨夜电影感街拍人像" />
+        </label>
+        <label>
+          分类
+          <input name="category" required list="categoryOptions" placeholder="人像摄影 / 商品商业 / ..." />
+        </label>
+        <datalist id="categoryOptions"></datalist>
+        <label>
+          模型
+          <input name="model" placeholder="Midjourney v6 / SDXL / DALL·E 3" />
+        </label>
+        <label>
+          标签
+          <input name="tags" placeholder="用逗号分隔，例如：电影感,雨夜,35mm" />
+        </label>
+        <label>
+          正向提示词
+          <textarea name="prompt" required rows="7" placeholder="粘贴或编写完整 prompt"></textarea>
+        </label>
+        <label>
+          负向提示词
+          <textarea name="negative" rows="3" placeholder="可选"></textarea>
+        </label>
+        <label>
+          来源
+          <input name="source" placeholder="微信文章标题 / 链接 / 自己整理" />
+        </label>
+        <div class="form-actions">
+          <button class="button secondary" type="button" data-close-dialog>
+            <i data-lucide="x-circle"></i>
+            <span>取消</span>
+          </button>
+          <button class="button primary" type="submit">
+            <i data-lucide="save"></i>
+            <span>保存</span>
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="drawer compact" id="importDialog">
+      <div class="prompt-form">
+        <div class="dialog-head">
+          <div>
+            <p class="eyebrow">Import Desk</p>
+            <h2>微信文章暂存区</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-dialog aria-label="关闭">
+            <i data-lucide="x"></i>
+          </button>
+        </div>
+        <label>
+          文章标题或链接
+          <input id="importSource" placeholder="粘贴公众号文章链接、标题或 PDF 文件名" />
+        </label>
+        <label>
+          正文片段
+          <textarea
+            id="importText"
+            rows="12"
+            placeholder="可先把文章中的提示词段落粘贴到这里。复杂文章直接发给我，我来做更准确的抽取和分类。"
+          ></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="button secondary" id="parseImport" type="button">
+            <i data-lucide="scan-text"></i>
+            <span>生成候选</span>
+          </button>
+          <button class="button primary" id="saveImportCandidates" type="button">
+            <i data-lucide="inbox"></i>
+            <span>存入待整理</span>
+          </button>
+        </div>
+        <div class="candidate-list" id="candidateList"></div>
+      </div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

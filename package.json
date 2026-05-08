@@ -1,0 +1,14 @@
+{
+  "name": "ai-image-prompt-library",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node scripts/copy-static-assets.mjs",
+    "dev": "vite --host ::",
+    "preview": "vite preview --host ::"
+  },
+  "devDependencies": {
+    "vite": "^8.0.10"
+  }
+}
