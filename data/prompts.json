@@ -12833,5 +12833,1582 @@
     ],
     "notes": "来自微信文章案例，已按用途初步分类；适合在 GPT Image / ChatGPT 生图中直接尝试，再按项目替换主题与文字。",
     "imageUrl": "./assets/previews/wechat/wechat-gpt-image-2-39.png"
+  },
+  {
+    "id": "wechat-mv-storyboard-concept-art",
+    "title": "音乐MV视觉分镜概念板",
+    "category": "电影分镜",
+    "model": "Midjourney V6 / GPT Image 2 Workflow",
+    "scenario": "音乐MV视觉分镜、视频前期参考板",
+    "style": "电影分镜",
+    "tags": [
+      "MV",
+      "分镜",
+      "concept art",
+      "Midjourney",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "一张专业音乐MV视觉分镜图（storyboard + concept art结合体），用于指导后续连续镜头生成。画面需要同时清晰呈现：角色完整外观设定、场景氛围、光影情绪、镜头语言和关键动作。构图采用经典导演分镜布局，左上角或顶部标注镜头号、景别（如“Shot 03 - CU”）、镜头运动提示（如“slow push in”“dolly zoom”），画面主体为角色在特定场景中正在进行的关键动作，强烈的情绪氛围，电影感光影和色彩情绪明确。角色外观、服装、发型、五官特征必须清晰可辨，背景环境细节丰富，整体风格为写实概念设定+分镜结合体，专业、清晰、具有指导性，像专业导演和美术指导使用的参考板，而非单张插画 --stylize 100 --v 6",
+    "params": "--stylize 100 --v 6",
+    "source": "微信公众号：爆火GPT Image 2玩法全公开！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/asqbcc3kUCHxaAHAHFK4Cw",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-21 23:17",
+    "author": "ZJAI收藏馆",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-asqbcc3k-01.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-asqbcc3k-01.jpg"
+    ],
+    "notes": "文章用于 GPT Image 2 分镜到视频流程，原提示词带 Midjourney 参数。"
+  },
+  {
+    "id": "wechat-rain-theater-piano-video-01",
+    "title": "废弃圆形剧院雨中钢琴视频",
+    "category": "电影分镜",
+    "model": "Grok-video3-plus",
+    "scenario": "30秒音乐影像、AI视频生成",
+    "style": "电影分镜",
+    "tags": [
+      "AI视频",
+      "雨景",
+      "钢琴",
+      "哥特舞台",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "废弃圆形剧院中央，一位湿发白裙女孩独自弹奏黑色三角钢琴，雨水自破碎穹顶倾泻而下，水面倒映冷蓝灰光与微弱暖金边缘光；镜头从眼神极近特写切到全景缓慢推进、侧向跟拍与低机位仰拍，衣摆与发丝随节拍轻颤，副歌进入慢动作与雨滴定格，氛围压抑、梦幻、哀而炽烈，cinematic, high contrast, haunting elegance",
+    "source": "微信公众号：爆火GPT Image 2玩法全公开！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/asqbcc3kUCHxaAHAHFK4Cw",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-21 23:17",
+    "author": "ZJAI收藏馆",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-asqbcc3k-02.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-asqbcc3k-02.png"
+    ],
+    "notes": "原文配的是视频，已保存视频封面作为预览图。"
+  },
+  {
+    "id": "wechat-rain-theater-piano-video-02",
+    "title": "暴雨剧场钢琴流体涡旋视频",
+    "category": "电影分镜",
+    "model": "Grok-video3-plus",
+    "scenario": "30秒音乐影像、AI视频生成",
+    "style": "电影分镜",
+    "tags": [
+      "AI视频",
+      "雨景",
+      "钢琴",
+      "体积光",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "废弃圆形剧场中央，一架黑色三角钢琴被天窗暴雨击穿，雨滴与水雾在冷蓝灰空气中形成流体涡旋；白裙演奏者如幽灵般静坐，湿发贴肤，琴声牵引地面积水震荡成细密波纹与微光粒子。镜头从远景缓慢推进，侧向掠过琴身，再低角度上仰捕捉她迎雨抬首，末段缓慢拉远，节奏由压抑凝滞转向情绪决堤。电影感，暗黑诗意，体积光，高对比，参考实验影像与哥特舞台美学。",
+    "source": "微信公众号：爆火GPT Image 2玩法全公开！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/asqbcc3kUCHxaAHAHFK4Cw",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-21 23:17",
+    "author": "ZJAI收藏馆",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-asqbcc3k-03.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-asqbcc3k-03.jpg",
+      "./assets/previews/wechat/wechat-asqbcc3k-04.png"
+    ],
+    "notes": "文章同时给了参考图和视频封面。"
+  },
+  {
+    "id": "wechat-gpt-image2-playbook-resource",
+    "title": "GPT Image 2 十种超前玩法资源",
+    "category": "提示词方法",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "玩法索引、飞书文档入口、案例学习",
+    "style": "资源索引",
+    "tags": [
+      "资源索引",
+      "飞书文档",
+      "玩法合集",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "飞书云文档完整版包含20种玩法大全： https://airaysheng.feishu.cn/wiki/QOaBwYpKviGkWtkRMsgcLhninob\n\n文章整理了 GPT Image 2 在 IP漫画、城市海报、专辑封面、电商详情页、九宫格分镜、职业照、室内设计、产品剖析图、新闻读图、世界知识理解等场景中的示例。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "resourceUrl": "https://airaysheng.feishu.cn/wiki/QOaBwYpKviGkWtkRMsgcLhninob",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202b2f",
+      "#7ac7b7"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-01.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-JsXqg1DW-01.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-02.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-03.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-04.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-05.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-06.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-07.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-08.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-09.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-10.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-11.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-12.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-13.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-14.jpg",
+      "./assets/previews/wechat/wechat-JsXqg1DW-15.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-16.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-17.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-18.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-19.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-20.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-21.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-22.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-23.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-24.png"
+    ],
+    "notes": "资源入口卡，不是单张出图提示词。已把文章内 24 张图保存到本地。"
+  },
+  {
+    "id": "wechat-playbook-ip-comic-ai-teacher",
+    "title": "AI教学博主全彩中文漫画",
+    "category": "IP/角色",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "IP漫画、多格漫画、角色一致性测试",
+    "style": "IP/角色",
+    "tags": [
+      "IP漫画",
+      "多格漫画",
+      "角色一致性",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成一幅全彩中文漫画，内容关于一位AI教学自媒体博主AI小王子Jay，他正在为发布的GPT Images 2.0努力地生成素材和教学讲解。（背景中有各种奇特的AI物件，以及一个用单条胶带贴在墙上的香蕉）",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#5a3d69",
+      "#e2b6c7"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-03.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-JsXqg1DW-02.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-03.png"
+    ],
+    "notes": "原文展示同一 IP 的漫画化玩法。"
+  },
+  {
+    "id": "wechat-playbook-yuechao-invitation-poster",
+    "title": "粤超邀请函国潮足球海报",
+    "category": "Logo/海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "城市赛事邀请函、文旅体育海报",
+    "style": "Logo/海报",
+    "tags": [
+      "城市海报",
+      "国潮",
+      "足球",
+      "文旅",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "广东省城市足球超级联赛（粤超）邀请函海报设计，比例 9:16。S 型流动构图，以发光足球和动态能量流贯穿画面，沿动线融合广州塔、深圳平安金融中心、珠海渔女雕像、岭南建筑、佛山武术剪影、中山文化符号、潮汕英歌舞与清远山水。现代国潮高级海报风格，中国红主视觉，青蓝辅助，金色高光，带完整中文排版与电影级光影。",
+    "params": "9:16",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#833f2e",
+      "#d6a23d"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-04.png",
+    "notes": "原文标注为左图 GPT Image 2 指令。"
+  },
+  {
+    "id": "wechat-playbook-macau-travel-poster",
+    "title": "澳门旅游全攻略海报",
+    "category": "Logo/海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "文旅推广、旅游攻略海报、社媒封面",
+    "style": "Logo/海报",
+    "tags": [
+      "旅游攻略",
+      "澳门",
+      "城市海报",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "制作一张澳门旅游全攻略的海报，有惊艳的视觉主题，9:16比例，包含主流旅游打卡特色点和经典介绍，适合发给想来澳门旅游的新游客。",
+    "params": "9:16",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#833f2e",
+      "#d6a23d"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-05.png",
+    "notes": "原文标注为右图 GPT Image 2 指令。"
+  },
+  {
+    "id": "wechat-playbook-leifeng-pagoda-tech-infographic",
+    "title": "杭州雷峰塔技术信息图",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "建筑科普图、文旅信息图、技术注释海报",
+    "style": "信息图",
+    "tags": [
+      "建筑信息图",
+      "HUD",
+      "雷峰塔",
+      "文旅",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "制作一张【杭州雷峰塔】的信息图：结合地标真实照片与白色技术注释/图解叠加，在角落手绘方框中写建筑名称。叠加复杂白色技术标注，展示关键结构数据、重要测星、材料数量、细部做法，并包含剖面图、平面图以及显著建筑/工程特征。风格：HUD平视显示、信息图表美学、细致清晰白线、技术/建筑注释风格、教育信息图感；注释后能看到真实环境；竖向构图。",
+    "params": "竖向构图",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-06.png",
+    "notes": "原文疑似“重要测量”被转写为“重要测星”，此处保留原文近似。"
+  },
+  {
+    "id": "wechat-playbook-romantic-blues-male-cover",
+    "title": "Romantic Blues 男性专辑封面",
+    "category": "Logo/海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "音乐专辑封面、视觉风格探索",
+    "style": "Logo/海报",
+    "tags": [
+      "专辑封面",
+      "爵士乐",
+      "人像海报",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "音乐专辑封面设计，1:1比例，音乐是浪漫微醺爵士乐，名字叫《Romantic Blues》，用一个性感白人男性的闭眼沉醉的头部特写，整体拥有微醺的艺术感。",
+    "params": "1:1",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#833f2e",
+      "#d6a23d"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-07.png",
+    "notes": "原文末尾略有截断，已按上下文补“艺术感”。"
+  },
+  {
+    "id": "wechat-playbook-blonde-neon-album-cover",
+    "title": "金发女性荧光蓝专辑封面",
+    "category": "Logo/海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "连续对话改图、音乐专辑封面",
+    "style": "Logo/海报",
+    "tags": [
+      "专辑封面",
+      "连续改图",
+      "荧光蓝",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "在图1基础上继续对话，按照这个氛围，做一个金发女性主题，音乐名称明显一点，背景用荧光蓝色，非常有质感和迷幻的风格。",
+    "params": "1:1；基于图1继续对话",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#833f2e",
+      "#d6a23d"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-08.png",
+    "notes": "需要参考前一张专辑封面继续生成。"
+  },
+  {
+    "id": "wechat-playbook-old-man-cigar-album-cover",
+    "title": "黄紫对比老男人专辑封面",
+    "category": "Logo/海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "连续对话改图、音乐专辑封面",
+    "style": "Logo/海报",
+    "tags": [
+      "专辑封面",
+      "黄紫对比",
+      "人像海报",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "在图1图2基础上继续对话，继续按照这个氛围，做一张艺术风格的，一个非常有味道的老男人，叼着雪茄，戴着帽子，非常有韵味，黄紫色大胆的色彩对比。",
+    "params": "1:1；基于图1图2继续对话",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#833f2e",
+      "#d6a23d"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-09.png",
+    "notes": "原文为左图 GPT Image 2 指令。"
+  },
+  {
+    "id": "wechat-playbook-personal-photo-neon-album-cover",
+    "title": "个人照片转荧光专辑封面",
+    "category": "人像摄影",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "参考照片风格化、音乐专辑封面",
+    "style": "人像摄影",
+    "tags": [
+      "参考图",
+      "专辑封面",
+      "人像风格化",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "上传自己的照片。把参考形象依照这个专辑封面做成荧光蓝色和亮黄色强烈对比主题色，人物闭着眼睛沉醉，戴着流苏耳环，极具艺术感。",
+    "params": "需要上传参考照片",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#6b3f55",
+      "#f0b7c8"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-10.png",
+    "notes": "原文为右图 GPT Image 2 指令，需要参考形象。"
+  },
+  {
+    "id": "wechat-playbook-protein-powder-detail-page",
+    "title": "健身蛋白粉电商详情图",
+    "category": "电商海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "电商详情页、新品发布功能图",
+    "style": "电商海报",
+    "tags": [
+      "电商详情页",
+      "蛋白粉",
+      "产品卖点",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "健身蛋白粉电商详情图。展示产品核心亮点、成分信息、使用场景与卖点排版，适合电商产品详情页和新品发布功能展示图。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#2f4053",
+      "#d2a24e"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-11.png",
+    "notes": "原文提示词为“健身蛋白粉电商详情图 / AI眼镜电商详情图”，此处拆成独立卡片。"
+  },
+  {
+    "id": "wechat-playbook-ai-glasses-detail-page",
+    "title": "AI眼镜电商详情图",
+    "category": "电商海报",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "电商详情页、新品发布功能图",
+    "style": "电商海报",
+    "tags": [
+      "电商详情页",
+      "AI眼镜",
+      "产品卖点",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "AI眼镜电商详情图。展示产品核心亮点、交互能力、佩戴场景与卖点排版，适合电商产品详情页和新品发布功能展示图。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#2f4053",
+      "#d2a24e"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-12.png",
+    "notes": "原文提示词为“健身蛋白粉电商详情图 / AI眼镜电商详情图”，此处拆成独立卡片。"
+  },
+  {
+    "id": "wechat-playbook-nine-panel-money-storyboard",
+    "title": "小男孩无限钞票九宫格分镜",
+    "category": "电影分镜",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "短视频分镜、图生视频参考图",
+    "style": "电影分镜",
+    "tags": [
+      "九宫格分镜",
+      "短视频",
+      "图生视频",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "在一张图上生成9宫格分镜图，故事是一个小男孩在偶然间获得了一个可以无限生成钞票的能力，他用这个能力去帮助所有需要帮助的人。分镜图是为了生成视频用的，每个分镜图上的数字要越小越好，每一个分镜图中需要有时长信息。",
+    "params": "3x3 九宫格",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-13.png",
+    "notes": "文章建议如不加字幕，可直接放入 Seedance2.0 生成完整视频故事。"
+  },
+  {
+    "id": "wechat-playbook-studio-professional-portrait",
+    "title": "参考照片转高级职业肖像",
+    "category": "人像摄影",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "职业照、领英头像、公司官网头像",
+    "style": "人像摄影",
+    "tags": [
+      "职业照",
+      "参考图",
+      "影棚肖像",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "参考人物照片，转换成高级时尚风的影棚肖像。选择能衬托主体肤色的背景色，例如高级灰白色渐变，职业风。保持紧凑的头肩构图，让主体居中，正对镜头，带着乐观自信的表情，头发柔顺。使用定向打光并保留细微阴影。在保留自然肤色的同时，让画面精致、极简、富有编辑感——像杂志写真一样。",
+    "params": "需要上传参考人物照片",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#6b3f55",
+      "#f0b7c8"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-15.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-JsXqg1DW-14.jpg",
+      "./assets/previews/wechat/wechat-JsXqg1DW-15.png"
+    ],
+    "notes": "原文包含参考图与生成效果图。"
+  },
+  {
+    "id": "wechat-playbook-realistic-handwritten-notebook",
+    "title": "写实手写笔记本照片",
+    "category": "商品商业",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "写实生活照片、手写笔记素材",
+    "style": "商品商业",
+    "tags": [
+      "写实照片",
+      "手写笔记",
+      "iPhone摄影",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "一张平放着的打开的笔记本的业余照片，里面填满了用黑色圆珠笔写的手写笔记。笔迹随意且略显凌乱，就像个人笔记，自然的瑕疵，划掉的单词，划线的标题。从略高角度拍摄，来自窗户的自然日光，未使用闪光灯。随意的桌面设置，用 iPhone 拍摄。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#3f5748",
+      "#b7d7a8"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-16.png",
+    "notes": "用于测试 GPT Image 2 对真实自然场景和文字细节的生成。"
+  },
+  {
+    "id": "wechat-playbook-modern-minimal-interior-board",
+    "title": "现代极简住宅平面+3D效果图",
+    "category": "室内建筑",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "室内设计提案、客户沟通板",
+    "style": "室内建筑",
+    "tags": [
+      "室内设计",
+      "平面图",
+      "3D渲染",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "高端室内设计图，现代极简风住宅，平面图 + 3D 渲染图组合，空间通透，落地窗，大面积留白，暖光氛围，极致干净高级感，像样板间一样精致。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#4b3f35",
+      "#d7c0a1"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-17.png",
+    "notes": "适合草图转室内效果图或方案沟通板。"
+  },
+  {
+    "id": "wechat-playbook-xiaomi-car-exploded-view",
+    "title": "小米汽车爆炸分解图",
+    "category": "工业/产品",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "产品说明书、众筹页面、技术剖析图",
+    "style": "工业/产品",
+    "tags": [
+      "爆炸图",
+      "汽车",
+      "产品剖析",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成小米汽车的爆炸分解图，展示自动生成的汽车拆解信息图，具有现代化的 UI 间距、清晰的排版以及奢华的黑青色调。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#334155",
+      "#9fb8d0"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-18.png",
+    "notes": "原文标注为左图 GPT Image 2 指令。"
+  },
+  {
+    "id": "wechat-playbook-li-mega-exploded-view",
+    "title": "理想Mega汽车爆炸分解图",
+    "category": "工业/产品",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "产品说明书、众筹页面、技术剖析图",
+    "style": "工业/产品",
+    "tags": [
+      "爆炸图",
+      "汽车",
+      "理想Mega",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成一个【理想Mega】汽车的爆炸分解图，要有设计感，内容要尽可能的详细。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#334155",
+      "#9fb8d0"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-19.png",
+    "notes": "原文标注为右图 GPT Image 2 指令。"
+  },
+  {
+    "id": "wechat-playbook-tpu-news-visual-infographic",
+    "title": "第八代TPU新闻可视化资讯图",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "新闻读图、公众号长图、资讯可视化",
+    "style": "信息图",
+    "tags": [
+      "新闻读图",
+      "TPU",
+      "科技信息图",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "https://wallstreetcn.com/articles/3770635 将这篇新闻转换成一张可视化信息资讯图，固定宽度750px，高度不限，可在手机上上下滑动观看，能够直接发在微信公众号图文看新闻，了解重要第八代两款TPU的各方面维度了解和重大优势，保持数据信息高度精确，整体有设计主题，UI设计要更科技感一点，设计视觉更高级一些。",
+    "params": "固定宽度 750px；高度不限；移动端长图",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-22.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-JsXqg1DW-20.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-21.png",
+      "./assets/previews/wechat/wechat-JsXqg1DW-22.png"
+    ],
+    "notes": "原文包含参考新闻截图与可视化资讯图示例；事实类信息生成前建议重新核验新闻内容。"
+  },
+  {
+    "id": "wechat-playbook-solar-system-infographic",
+    "title": "太阳系信息图",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "科普信息图、教学海报",
+    "style": "信息图",
+    "tags": [
+      "太阳系",
+      "科普",
+      "世界知识",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成一张太阳系的信息图，16:9。",
+    "params": "16:9",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-23.png",
+    "notes": "用于测试世界知识理解和科普信息图能力。"
+  },
+  {
+    "id": "wechat-playbook-serengeti-wildebeest-photo",
+    "title": "塞伦盖蒂旱季角马迁徙照片",
+    "category": "人像摄影",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "自然纪录片风格、写实场景生成",
+    "style": "人像摄影",
+    "tags": [
+      "自然摄影",
+      "塞伦盖蒂",
+      "角马迁徙",
+      "世界知识",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成一张非洲塞伦盖蒂草原的野生动物实拍图，要求：旱季黄昏，广角视野，远处有金合欢树剪影，前景是一群角马正在迁徙，空中有一轮巨大落日。动物形态准确，草原植被真实，光影符合黄昏方向，画面壮丽且富有细节，类似国家地理纪录片截图。",
+    "source": "微信公众号：GPT Image 2 的十种超前玩法：这才叫生产力！",
+    "sourceUrl": "https://mp.weixin.qq.com/s/JsXqg1DWPD7r6GCwJViaWg",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 19:07",
+    "author": "AI小王子课堂",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#6b3f55",
+      "#f0b7c8"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-JsXqg1DW-24.png",
+    "notes": "用于测试世界知识理解和真实自然场景生成。"
+  },
+  {
+    "id": "wechat-awesome-gpt-image2-industrial-resource",
+    "title": "awesome-gpt-image-2 工业级提示词引擎",
+    "category": "提示词方法",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "结构化模板库、Prompt-as-Code、批量生产工作流",
+    "style": "资源索引",
+    "tags": [
+      "awesome-gpt-image-2",
+      "Prompt as Code",
+      "模板库",
+      "资源索引",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资源主题：awesome-gpt-image-2：工业级提示词引擎与模板库。\n\n核心理念：把 GPT-Image 2 的社区提示词从“散装案例”升级为可复用的结构化代码资产，把主体、光照、材质、布局、视觉细节原子化拆分，像函数参数一样填变量，让结果可预期、可复现、可批量执行。\n\n文章提到的资源规模：393 个逆向工程案例、20+ 套工业级提示词模板、13 大案例分类。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202b2f",
+      "#7ac7b7"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-02.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-01.svg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-02.png",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-03.jpg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-04.jpg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-05.jpg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-06.jpg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-07.jpg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-08.jpg",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-09.png",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-10.png",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-11.png",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-12.png",
+      "./assets/previews/wechat/wechat-L0Dy3tqf-13.jpg"
+    ],
+    "notes": "资源入口卡；项目中已另有 GitHub 导入的案例条目，这里补充该微信文章的资料说明和配图。"
+  },
+  {
+    "id": "wechat-wuxia-16-panel-action-storyboard",
+    "title": "武侠打斗16格动作分镜图",
+    "category": "电影分镜",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "AI视频前期参考、动作分镜、武侠打斗设计",
+    "style": "电影分镜",
+    "tags": [
+      "武侠",
+      "16格分镜",
+      "动作设计",
+      "图生视频",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成一张用于后续 AI 视频生成参考的专业级 16 格武打动作分镜图。\n\n【视觉风格】\n以简笔画的风格展示一段武侠打斗画面。设计风格如同专业教学指南，纯白色背景，以颜色区分画面，强烈的对比度，突出人物的姿态、动作和物体互动。\n\n【网格布局】\n结构化的4×4网格（共16格），以细黑线均匀分隔。每个格子大小相同，并清晰地编号为1至16，展现一段连续的、多镜头的武打片段。每格要有动作箭头和少量的镜头语言文字说明，镜头语言和风格参考经典武侠电影。\n\n【角色设定】\n用红色代表红衣女子，黑色代表黑衣刺客。红衣女子武器为飞针，黑衣刺客（多个）武器为长刀。\n\n【内容设定】\n肃立对峙：中景。红衣女子稳立于酒馆中央，周身散发冷峻气场。\n飞箭突袭：特写。数支黑箭从暗处射向站立的女子，箭簇在昏暗灯光下闪烁，女子身形未动，仅微微侧首。\n瞬发飞针：近景。女子单手挥袖，指缝间甩出数枚银针，将迎面而来的箭矢凌空击落，木地板上留下深深的箭孔。\n破门入沙：动态追踪。女子脚尖轻点地面，整个人如红隼般凌空跃起，一脚踹开酒馆大门，画面瞬间从酒馆阴影切换到烈日灼人的大漠，黄沙扑面而来。\n沙海稳势：低机位仰拍。女子稳立在起伏的沙丘之巅，红裙在狂风中剧烈摆动，身后的酒馆渐行渐远，三名黑衣刺客从沙海中围拢。\n狂刀横扫：中景。一名执长刀的刺客侧向劈砍，刀锋划过沙面激起一道金色弧形沙浪。\n旋身避锋：中景。女子在沙地上轻盈旋转，红色衣摆随风起舞，利用身法巧妙躲过长刀连斩。\n劈空重掌：特写。女子聚力于掌心，对准刺客胸口挥出一记重拳/掌，强劲的内力将周围的沙尘震成一个环状波纹。\n轻功跃迁：侧面追踪。女子施展轻功，身形在沙丘间忽隐忽现，镜头捕捉她脚尖点过流沙留下的微小涟漪。\n伏地飞针：近景。女子在侧身滑步时猛然出针，银针在刺眼的阳光下划出三道细微的白光，直取对方要害。\n借力格挡：近景特写。女子以坚固护腕生生格开长刀，画面中心能看到明显的火星迸溅与金属颤动。\n裂空劲踢：仰拍。女子身体后仰，右腿呈180度划破长空，一记侧踢精准击中刺客太阳穴，黑衣人向侧方翻滚坠下沙丘。\n擒拿夺刀：中景。女子顺势切入刺客近身，施展错骨手扣住其手腕，动作干净利落，充满实战逻辑。\n重击触地：近景。女子将刺客过肩摔向沙地，落地瞬间激起巨大的沙柱，镜头跟随沙粒飞溅的方向移动。\n胜者俯视：中景。女子脚踩倒地刺客的长刀，单手负于身后，红衣在烈日下显得格外肃杀，刺客彻底丧失战力。\n孤影归途：远景。女子缓步走入沙漠深处，阳光在地平线上拉出长长的暗影，红裙在金色的沙海中逐渐缩成一个点。\n\n【其它要求】\n多分镜切换，采用特写、慢动作、跟拍等手法，画面构图符合武侠电影的经典构图，强烈的打击感和速度感。",
+    "params": "4×4 网格；16格；武侠简笔画/教学指南风",
+    "source": "微信公众号：GPT- Image 2生成分镜动作草图详细教程（附视频提示词）",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4qJMkFagiVNL0pvCCFDI7Q",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-10 08:11",
+    "author": "水仙的AI提示词",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-4qJMkFag-01.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-4qJMkFag-01.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-02.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-03.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-04.png"
+    ],
+    "notes": "完整提示词来自文章截图，已人工转写；relatedImages 保留截图和生成图。"
+  },
+  {
+    "id": "wechat-wuxia-red-woman-turnaround",
+    "title": "红衣女子三视图",
+    "category": "IP/角色",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "角色设定、三视图、图生视频角色参考",
+    "style": "IP/角色",
+    "tags": [
+      "武侠",
+      "三视图",
+      "红衣女子",
+      "角色设定",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "把图片中的女性生成一个三视图。角色为红衣女子，保留原图中的红衣、发型、飞针武器与武侠气质，输出正视图、侧视图和后视图，白底角色设定稿，标注配色参考。",
+    "params": "需要上传参考图；正视图/侧视图/后视图",
+    "source": "微信公众号：GPT- Image 2生成分镜动作草图详细教程（附视频提示词）",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4qJMkFagiVNL0pvCCFDI7Q",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-10 08:11",
+    "author": "水仙的AI提示词",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#5a3d69",
+      "#e2b6c7"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-4qJMkFag-06.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-4qJMkFag-05.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-06.png"
+    ],
+    "notes": "原文截图中的用户提示为“把图片中的女性生成一个三视图”，此处补充了便于复用的约束。"
+  },
+  {
+    "id": "wechat-wuxia-masked-assassin-turnaround",
+    "title": "黑衣蒙面刺客三视图",
+    "category": "IP/角色",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "角色设定、反派三视图、图生视频角色参考",
+    "style": "IP/角色",
+    "tags": [
+      "武侠",
+      "三视图",
+      "黑衣刺客",
+      "角色设定",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "根据之前红衣女子的风格，生成黑衣刺客/蒙面人的三视图角色设计，包括前视、侧视和后视。突出神秘感与冷峻气场，同时保留武器和细节设计。",
+    "params": "正视图/侧视图/后视图；与红衣女子风格一致",
+    "source": "微信公众号：GPT- Image 2生成分镜动作草图详细教程（附视频提示词）",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4qJMkFagiVNL0pvCCFDI7Q",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-10 08:11",
+    "author": "水仙的AI提示词",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#5a3d69",
+      "#e2b6c7"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-4qJMkFag-08.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-4qJMkFag-07.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-08.png"
+    ],
+    "notes": "提示词由文章中的 ChatGPT 截图整理。"
+  },
+  {
+    "id": "wechat-wuxia-tavern-environment-board",
+    "title": "武侠空酒馆环境设定",
+    "category": "室内建筑",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "场景设定、武侠短片背景、环境概念设计",
+    "style": "室内建筑",
+    "tags": [
+      "武侠",
+      "酒馆",
+      "环境设定",
+      "场景设计",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成空酒馆环境，和上面的角色设计保持风格一致。边城酒馆，江湖客栈，木结构建筑，空间开阔，光影斑驳，充满烟火气与故事感；武侠写实 / 水墨线稿风，江湖气息，粗犷古朴。",
+    "source": "微信公众号：GPT- Image 2生成分镜动作草图详细教程（附视频提示词）",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4qJMkFagiVNL0pvCCFDI7Q",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-10 08:11",
+    "author": "水仙的AI提示词",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#4b3f35",
+      "#d7c0a1"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-4qJMkFag-10.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-4qJMkFag-09.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-10.png"
+    ],
+    "notes": "提示词由文章中的 ChatGPT 截图整理；预览图包含场景概述、色彩参考、平面布局和结构参考。"
+  },
+  {
+    "id": "wechat-wuxia-red-woman-in-tavern",
+    "title": "红衣女子站在酒馆中",
+    "category": "电影分镜",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "角色入场图、视频参考图、武侠概念画",
+    "style": "电影分镜",
+    "tags": [
+      "武侠",
+      "酒馆",
+      "角色入场",
+      "参考图",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成红衣女子站在酒馆，和上面的角色设计保持风格一致。让红衣女子位于酒馆中央，保留红衣、飞针武器与冷峻气质，环境沿用前面的醉仙楼酒馆设定，武侠写实 / 水墨线稿风，电影感构图。",
+    "source": "微信公众号：GPT- Image 2生成分镜动作草图详细教程（附视频提示词）",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4qJMkFagiVNL0pvCCFDI7Q",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-10 08:11",
+    "author": "水仙的AI提示词",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-4qJMkFag-12.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-4qJMkFag-11.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-12.png"
+    ],
+    "notes": "提示词由文章中的 ChatGPT 截图整理。"
+  },
+  {
+    "id": "wechat-wuxia-red-woman-assassin-fight-video",
+    "title": "红衣女子大战黑衣刺客视频提示词",
+    "category": "电影分镜",
+    "model": "AI 视频 / GPT Image 2 参考图",
+    "scenario": "图生视频、武侠打斗短片、动作镜头设计",
+    "style": "电影分镜",
+    "tags": [
+      "AI视频",
+      "武侠",
+      "打斗",
+      "35mm电影感",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "生成一段红衣女子@图片 2在酒馆和酒馆外的沙漠与一群黑衣刺客@图片 3打斗的画面，真人武侠电影写实风格。完全真人写实质感，35mm摄像机拍摄，需要运用到分镜和不同视角切换，让整个画面更有节奏感和电影感。画面的动作设计，镜头语言严格参考@图片 1。场面带有流畅的对打，切换不同分镜，展示流畅的武打动作。仅生成打斗音效和环境音效，不配背景音乐。\n\n【内容设定】\n肃立对峙：中景。红衣女子稳立于酒馆中央，周身散发冷峻气场。\n飞箭突袭：特写。数支黑箭从暗处射向站立的女子，箭簇在昏暗灯光下闪烁，女子身形未动，仅微微侧首。\n瞬发飞针：近景。女子单手挥袖，指缝间甩出数枚银针，将迎面而来的箭矢凌空击落，木地板上留下深深的箭孔。\n破门入沙：动态追踪。女子脚尖轻点地面，整个人如红隼般凌空跃起，一脚踹开酒馆大门，画面瞬间从酒馆阴影切换到烈日灼人的大漠，黄沙扑面而来。\n沙海稳势：低机位仰拍。女子稳立在起伏的沙丘之巅，红裙在狂风中剧烈摆动，身后的酒馆渐行渐远，三名黑衣刺客从沙海中围拢。\n狂刀横扫：中景。一名执长刀的刺客侧向劈砍，刀锋划过沙面激起一道金色弧形沙浪。\n旋身避锋：中景。女子在沙地上轻盈旋转，红色衣摆随风起舞，利用身法巧妙躲过长刀连斩。\n劈空重掌：特写。女子聚力于掌心，对准刺客胸口挥出一记重拳/掌，强劲的内力将周围的沙尘震成一个环状波纹。\n轻功跃迁：侧面追踪。女子施展轻功，身形在沙丘间忽隐忽现，镜头捕捉她脚尖点过流沙留下的微小涟漪。\n伏地飞针：近景。女子在侧身滑步时猛然出针，银针在刺眼的阳光下划出三道细微的白光，直取对方要害。\n借力格挡：近景特写。女子以坚固护腕生生格开长刀，画面中心能看到明显的火星迸溅与金属颤动。\n裂空劲踢：仰拍。女子身体后仰，右腿呈180度划破长空，一记侧踢精准击中刺客太阳穴，黑衣人向侧方翻滚坠下沙丘。\n擒拿夺刀：中景。女子顺势切入刺客近身，施展错骨手扣住其手腕，动作干净利落，充满实战逻辑。\n重击触地：近景。女子将刺客过肩摔向沙地，落地瞬间激起巨大的沙柱，镜头跟随沙粒飞溅的方向移动。\n胜者俯视：中景。女子脚踩倒地刺客的长刀，单手负于身后，红衣在烈日下显得格外肃杀，刺客彻底丧失战力。\n孤影归途：远景。女子缓步走入沙漠深处，阳光在地平线上拉出长长的暗影，红裙在金色的沙海中逐渐缩成一个点。",
+    "source": "微信公众号：GPT- Image 2生成分镜动作草图详细教程（附视频提示词）",
+    "sourceUrl": "https://mp.weixin.qq.com/s/4qJMkFagiVNL0pvCCFDI7Q",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-10 08:11",
+    "author": "水仙的AI提示词",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ],
+    "imageUrl": "./assets/previews/wechat/wechat-4qJMkFag-13.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-4qJMkFag-01.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-06.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-08.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-12.png",
+      "./assets/previews/wechat/wechat-4qJMkFag-13.png"
+    ],
+    "notes": "完整视频提示词来自文章截图，已人工转写；@图片1/2/3 指文章中的分镜、红衣女子、黑衣刺客参考图。"
+  },
+  {
+    "id": "wechat-food-life-infographic-template",
+    "title": "食物的一生科普信息图模板",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "小红书科普图、食品生命周期、知识卡片",
+    "style": "科普信息图",
+    "tags": [
+      "科普信息图",
+      "小红书",
+      "食物切片",
+      "生命周期",
+      "模板",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "以“{食物名称}的一生”为主题的科普信息图。\n\n画面中必须是“一个完整的单体食物”（如一个土豆 / 一把香蕉 / 一头大蒜），通过横向切片的方式，表现同一个食物在不同时间阶段的变化，而不是多个不同食物拼接。\n\n食物主体保持结构连续、形状一致，只是在不同切片区域呈现不同成熟度（像时间被切开）。\n\n画面为竖版3:4比例，主体居中横向展开，被均匀分割为4-6段：从左到右：未成熟 → 成熟 → 过熟 → 变质。\n\n每一段体现真实变化：颜色变化（青→黄→黑等）、质地变化（饱满→软化→皱缩→腐坏）、特征变化（发芽、出水、霉变等）。\n\n每个阶段配文字说明：阶段名称、外观特点、内部变化（糖分/淀粉/水分变化）、食用建议（推荐/适合烹饪/不可食用）。\n\n设计风格：极简浅色背景（米色）、高真实感摄影风格、清晰分割线（时间切片感）、中文科普排版、小红书风格、适当使用⚠️✔️等标识。\n\n画面顶部标题：“{食物名称}的一生”。\n\n关键要求：必须表现为“同一个食物随时间变化的切片”，而不是多个独立个体拼接。",
+    "params": "竖版 3:4；4-6段横向切片；替换 {食物名称}",
+    "imageUrl": "./assets/previews/wechat/wechat-rJHZxaxw-01.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-rJHZxaxw-01.jpg",
+      "./assets/previews/wechat/wechat-rJHZxaxw-02.jpg",
+      "./assets/previews/wechat/wechat-rJHZxaxw-03.jpg"
+    ],
+    "notes": "模板卡；文章配了香蕉、榴莲、大蒜三张示例图，已拆成独立卡片。",
+    "source": "微信公众号：小红书起号：gpt image 2拆解食物的一生--科普信息图",
+    "sourceUrl": "https://mp.weixin.qq.com/s/rJHZxaxw7TX_8q_Ax5hhnA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 12:57",
+    "author": "电商AI知识库",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-food-life-infographic-banana",
+    "title": "香蕉的一生科普信息图",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "小红书科普图、食品生命周期、知识卡片",
+    "style": "科普信息图",
+    "tags": [
+      "科普信息图",
+      "小红书",
+      "食物切片",
+      "生命周期",
+      "香蕉",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "以“{食物名称}的一生”为主题的科普信息图。\n\n画面中必须是“一个完整的单体食物”（如一个土豆 / 一把香蕉 / 一头大蒜），通过横向切片的方式，表现同一个食物在不同时间阶段的变化，而不是多个不同食物拼接。\n\n食物主体保持结构连续、形状一致，只是在不同切片区域呈现不同成熟度（像时间被切开）。\n\n画面为竖版3:4比例，主体居中横向展开，被均匀分割为4-6段：从左到右：未成熟 → 成熟 → 过熟 → 变质。\n\n每一段体现真实变化：颜色变化（青→黄→黑等）、质地变化（饱满→软化→皱缩→腐坏）、特征变化（发芽、出水、霉变等）。\n\n每个阶段配文字说明：阶段名称、外观特点、内部变化（糖分/淀粉/水分变化）、食用建议（推荐/适合烹饪/不可食用）。\n\n设计风格：极简浅色背景（米色）、高真实感摄影风格、清晰分割线（时间切片感）、中文科普排版、小红书风格、适当使用⚠️✔️等标识。\n\n画面顶部标题：“{食物名称}的一生”。\n\n关键要求：必须表现为“同一个食物随时间变化的切片”，而不是多个独立个体拼接。\n\n食物名称：香蕉",
+    "params": "竖版 3:4；4-6段横向切片",
+    "imageUrl": "./assets/previews/wechat/wechat-rJHZxaxw-01.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-rJHZxaxw-01.jpg"
+    ],
+    "notes": "从文章成品图拆出的独立食物案例；OCR 识别到的图中文字主题：香蕉的一生 / 从未成熟到变质",
+    "source": "微信公众号：小红书起号：gpt image 2拆解食物的一生--科普信息图",
+    "sourceUrl": "https://mp.weixin.qq.com/s/rJHZxaxw7TX_8q_Ax5hhnA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 12:57",
+    "author": "电商AI知识库",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-food-life-infographic-durian",
+    "title": "榴莲的一生科普信息图",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "小红书科普图、食品生命周期、知识卡片",
+    "style": "科普信息图",
+    "tags": [
+      "科普信息图",
+      "小红书",
+      "食物切片",
+      "生命周期",
+      "榴莲",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "以“{食物名称}的一生”为主题的科普信息图。\n\n画面中必须是“一个完整的单体食物”（如一个土豆 / 一把香蕉 / 一头大蒜），通过横向切片的方式，表现同一个食物在不同时间阶段的变化，而不是多个不同食物拼接。\n\n食物主体保持结构连续、形状一致，只是在不同切片区域呈现不同成熟度（像时间被切开）。\n\n画面为竖版3:4比例，主体居中横向展开，被均匀分割为4-6段：从左到右：未成熟 → 成熟 → 过熟 → 变质。\n\n每一段体现真实变化：颜色变化（青→黄→黑等）、质地变化（饱满→软化→皱缩→腐坏）、特征变化（发芽、出水、霉变等）。\n\n每个阶段配文字说明：阶段名称、外观特点、内部变化（糖分/淀粉/水分变化）、食用建议（推荐/适合烹饪/不可食用）。\n\n设计风格：极简浅色背景（米色）、高真实感摄影风格、清晰分割线（时间切片感）、中文科普排版、小红书风格、适当使用⚠️✔️等标识。\n\n画面顶部标题：“{食物名称}的一生”。\n\n关键要求：必须表现为“同一个食物随时间变化的切片”，而不是多个独立个体拼接。\n\n食物名称：榴莲",
+    "params": "竖版 3:4；4-6段横向切片",
+    "imageUrl": "./assets/previews/wechat/wechat-rJHZxaxw-02.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-rJHZxaxw-02.jpg"
+    ],
+    "notes": "从文章成品图拆出的独立食物案例；OCR 识别到的图中文字主题：榴莲的一生 / 从未成熟到变质",
+    "source": "微信公众号：小红书起号：gpt image 2拆解食物的一生--科普信息图",
+    "sourceUrl": "https://mp.weixin.qq.com/s/rJHZxaxw7TX_8q_Ax5hhnA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 12:57",
+    "author": "电商AI知识库",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-food-life-infographic-garlic",
+    "title": "大蒜的一生科普信息图",
+    "category": "信息图",
+    "model": "GPT Image 2 / ChatGPT",
+    "scenario": "小红书科普图、食品生命周期、知识卡片",
+    "style": "科普信息图",
+    "tags": [
+      "科普信息图",
+      "小红书",
+      "食物切片",
+      "生命周期",
+      "大蒜",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "以“{食物名称}的一生”为主题的科普信息图。\n\n画面中必须是“一个完整的单体食物”（如一个土豆 / 一把香蕉 / 一头大蒜），通过横向切片的方式，表现同一个食物在不同时间阶段的变化，而不是多个不同食物拼接。\n\n食物主体保持结构连续、形状一致，只是在不同切片区域呈现不同成熟度（像时间被切开）。\n\n画面为竖版3:4比例，主体居中横向展开，被均匀分割为4-6段：从左到右：未成熟 → 成熟 → 过熟 → 变质。\n\n每一段体现真实变化：颜色变化（青→黄→黑等）、质地变化（饱满→软化→皱缩→腐坏）、特征变化（发芽、出水、霉变等）。\n\n每个阶段配文字说明：阶段名称、外观特点、内部变化（糖分/淀粉/水分变化）、食用建议（推荐/适合烹饪/不可食用）。\n\n设计风格：极简浅色背景（米色）、高真实感摄影风格、清晰分割线（时间切片感）、中文科普排版、小红书风格、适当使用⚠️✔️等标识。\n\n画面顶部标题：“{食物名称}的一生”。\n\n关键要求：必须表现为“同一个食物随时间变化的切片”，而不是多个独立个体拼接。\n\n食物名称：大蒜",
+    "params": "竖版 3:4；4-6段横向切片",
+    "imageUrl": "./assets/previews/wechat/wechat-rJHZxaxw-03.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-rJHZxaxw-03.jpg"
+    ],
+    "notes": "从文章成品图拆出的独立食物案例；OCR 识别到的图中文字主题：大蒜的一生 / 从新鲜到变质",
+    "source": "微信公众号：小红书起号：gpt image 2拆解食物的一生--科普信息图",
+    "sourceUrl": "https://mp.weixin.qq.com/s/rJHZxaxw7TX_8q_Ax5hhnA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-04-23 12:57",
+    "author": "电商AI知识库",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-urban-metabolism-atlas",
+    "title": "城市生命系统图谱资料图",
+    "category": "信息图",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "信息图",
+      "城市系统",
+      "可视化",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：城市生命系统图谱 / Urban Metabolism Atlas\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-03.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-03.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-social-media-screenshot",
+    "title": "社媒界面截图资料图",
+    "category": "UI/界面",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "UI",
+      "社媒截图",
+      "界面设计",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：OpenAI Builder 社媒界面截图案例\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-04.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-04.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-starry-anime-girl",
+    "title": "星空少女插画资料图",
+    "category": "IP/角色",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "插画",
+      "动漫少女",
+      "星空",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：插画艺术创作图：星空、流星、动漫少女、云海倒影\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-05.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-05.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#5a3d69",
+      "#e2b6c7"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-meta-quest-exploded-view",
+    "title": "Meta Quest 3 爆炸分解资料图",
+    "category": "工业/产品",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "爆炸图",
+      "产品剖析",
+      "Meta Quest",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：Meta Quest 3 产品爆炸分解图，日文技术注释与零件引线\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-06.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-06.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#334155",
+      "#9fb8d0"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-gold-saints-card-set",
+    "title": "十二黄金圣斗士卡牌合集资料图",
+    "category": "IP/角色",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "角色卡",
+      "卡牌合集",
+      "IP角色",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：十二黄金圣斗士卡牌合集，角色卡集合排版\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-07.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-07.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#5a3d69",
+      "#e2b6c7"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-snack-packaging-cross-section",
+    "title": "零食品牌包装技术分解资料图",
+    "category": "工业/产品",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "包装剖析",
+      "技术分解图",
+      "食品包装",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：Lay's Chips Bag CROSS-SECTION VIEW，零食包装材料层级剖析图\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-08.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-08.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#334155",
+      "#9fb8d0"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-moonlight-live-stream",
+    "title": "月下美女直播画面资料图",
+    "category": "UI/界面",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "直播界面",
+      "社媒UI",
+      "人像",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：月下小舞姬直播界面截图，含评论、点赞和直播 UI 元素\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-09.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-09.png"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#202a44",
+      "#7fb5b5"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-rag-technical-diagram",
+    "title": "RAG 技术详解资料图",
+    "category": "信息图",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "RAG",
+      "技术图解",
+      "流程图",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：RAG 技术详解图：Retrieval-Augmented Generation 检索增强生成流程\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-10.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-10.png"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-chibi-nostalgia-scroll",
+    "title": "赤壁怀古长卷资料图",
+    "category": "国风插画",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "国风",
+      "长卷",
+      "山水",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：《赤壁怀古》长卷图，古典山水长卷与书法排版\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-11.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-11.png"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#833f2e",
+      "#d6a23d"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-xian-watercolor-map",
+    "title": "西安手绘水彩城市地图资料图",
+    "category": "信息图",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "城市地图",
+      "水彩",
+      "西安",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：西安手绘水彩城市地图，景点、美食与城市路线视觉\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-12.png",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-12.png"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#315f78",
+      "#d7eff2"
+    ]
+  },
+  {
+    "id": "wechat-awesome-example-sakura-coffee-portrait",
+    "title": "樱花咖啡户外人像资料图",
+    "category": "人像摄影",
+    "model": "GPT Image 2 / Evolink",
+    "scenario": "awesome-gpt-image-2 文章代表案例资料图",
+    "style": "案例资料图",
+    "tags": [
+      "户外人像",
+      "咖啡",
+      "樱花",
+      "资料图",
+      "awesome-gpt-image-2",
+      "GPT Image 2",
+      "微信导入"
+    ],
+    "prompt": "资料图说明：樱花咖啡户外人像，咖啡店外景与春日花卉氛围\n\n原微信文章仅展示该代表案例图片，未附完整原始提示词；本卡用于把文章提到的相关资料图补入库中，后续可从 awesome-gpt-image-2 仓库按案例继续追溯模板与提示词。",
+    "imageUrl": "./assets/previews/wechat/wechat-L0Dy3tqf-13.jpg",
+    "relatedImages": [
+      "./assets/previews/wechat/wechat-L0Dy3tqf-13.jpg"
+    ],
+    "notes": "资料图卡，不是完整原始提示词；用于补齐微信文章提到的案例图。",
+    "source": "微信公众号：awesome-gpt-image-2：工业级提示词引擎与模板库",
+    "sourceUrl": "https://mp.weixin.qq.com/s/L0Dy3tqfnHfBI9ffNU0kvA",
+    "sourceType": "wechat",
+    "sourceDate": "2026-05-06 11:01",
+    "author": "ITBOX",
+    "repoUrl": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+    "license": "CC BY 4.0（GitHub 仓库标注）",
+    "dateAdded": "2026-05-12",
+    "rating": 4,
+    "status": "ready",
+    "colors": [
+      "#6b3f55",
+      "#f0b7c8"
+    ]
   }
 ]
